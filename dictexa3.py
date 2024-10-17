@@ -1,7 +1,41 @@
-people = {1: {'name': 'John', 'age': '27', 'sex': 'Male'},
-          2: {'name': 'Marie', 'age': '22', 'sex': 'Female'}}
+'''
+price_dict = {'apple':100, 'pineapple':120, 'orange':110,'banana':100, 'lemon':150}
+highest=0
+for key,value in price_dict.items():
+      if value > highest:
+        highest=value
+        k=key
+else:
+     print(key)
+     print(highest)
+'''
 
-for details_dict in people.values():
-    for key, value in details_dict.items():
-        if value=='27':
-            print(details_dict['name'])
+
+
+'''
+
+#convert dict into list:
+price_dict = {'apple':100, 'pineapple':120, 'orange':110,'banana':100, 'lemon':150}
+print(list(price_dict))
+
+
+'''
+
+
+
+'''
+price_dict = {'apple':100, 'pineapple':120, 'orange':110,'banana':100, 'lemon':150}
+for fruit in price_dict:
+    print(fruit, price_dict[fruit])
+'''
+
+
+
+
+
+'''
+
+price_dict = {'apple':100, 'pineapple':120, 'orange':110,'banana':100, 'lemon':150}
+for fruit in price_dict[:2]:
+    print(fruit, price_dict[fruit])
+'''
