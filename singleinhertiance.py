@@ -1,4 +1,33 @@
 class Telephone:
+    
+    def call(self):
+        print("Calling")
+
+    def receive(self):
+        print("Receiving")
+
+class Mobile(Telephone):
+    
+    def chat(self):
+        print("Chatting")
+
+nokia = Mobile()
+nokia.chat()
+nokia.call()
+nokia.receive()
+
+
+===========================================
+
+
+
+
+
+
+
+
+
+class Telephone:
     rental = 300
     def call(self):
         print("Calling")
